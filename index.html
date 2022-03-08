@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Advanced Search</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<img src="https://www.google.com.sg/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="GoogleImg">
+
+<button id="login" onclick="signIn()">Sign in</button>
+<a href="file:///Users/nethan/Desktop/WebDev/GoogleProject/GoogleSearch/index.html" id="goBack">Back to Google Search</a>
+<h2 class="title">Advanced Search</h2>
+<hr class="line">
+<form action="https://www.google.com/search">
+<h4 class="find">Find pages with...</h4>
+<h5 class="all">all these words:</h5>
+<input class="inputO" name="as_q">
+<h5 class="this">this exact word or phrase:</h5>
+<input class="inputO" name="as_epq">
+<h5 class="this">any of these words:</h5>
+<input class="inputO" name="as_oq">
+<h5 class="this">none of these words:</h5>
+<input class="inputO" name="as_nlo">
+<hr class="lineTwo">
+<button class="advanced">Advanced Search</button>
+</form>
+
+<script>
+
+function signIn(){
+
+window.location.href = "https://accounts.google.com/signin";
+
+}
+</script>
+</body>
+<html>
